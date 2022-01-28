@@ -1,3 +1,5 @@
+#Creating a tuple and changing the variable of the tuple to update it
+
 buffet = ("bread", "cheese", "ham", "butter", "jam")
 print("We offer the following for breakfast:")
 for item in buffet:

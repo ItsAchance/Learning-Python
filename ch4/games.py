@@ -1,3 +1,5 @@
+#A list of games used for slicing
+
 games = ["castlevania", "super mario", "tekken", "chrono trigger", "metal gear solid", "pokemon", "final fantasy", "donkey kong", "the legend of zelda"]
 copy_games = games[:]
 

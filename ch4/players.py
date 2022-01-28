@@ -1,3 +1,5 @@
+#Learing to slice lists
+
 players = ["alexander", "willy", "simon", "morgan", "christoffer", "hamdija", 
 "johannes", "oscar"]
 mkb_dudes = players[:]
