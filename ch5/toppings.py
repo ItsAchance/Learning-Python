@@ -1,5 +1,10 @@
-requested_toppings = ["mushrooms", "pineapple", "ham", "salami", "falafel", "tofu"]
-if "pineapple" in requested_toppings:
-	print("There is pineapple on the pizza")
-else:
-	print("There is no pineapple on the pizza")
+available_toppings = ["mushrooms", "olives", "green peppers", "pepperoni", "pineapple", "extra cheese"]
+requested_toppings = ["mushrooms", "french fries", "extra cheese"]
+
+for requested_topping in requested_toppings:
+	if requested_topping in available_toppings:
+		print(f"Adding {requested_topping}")
+	else:
+		print(f"Sorry we do not have {requested_topping}")
+
+print("\nYour pizza is done!")
