@@ -22,6 +22,11 @@ for alien in aliens[:3]:
 		alien['color'] = "yellow"
 		alien['speed'] = "medium"
 		alien['points'] = 10
+	elif alien['color'] == "yellow": # If we have yellow aliens in the list
+		alien['color'] = "red"
+		alien['speed'] = "fast"
+		alien['points'] = 15
+
 # Print the first 5 aliens in the list aliens
 for alien in aliens[:5]:
 	print(alien)
