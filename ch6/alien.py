@@ -1,7 +1,7 @@
 # Track the movement of alien_0 depending on its speed.
 
 alien_0 = {
-<<<<<<< HEAD
+
 	"x_position" : 0,
 	"y_position" : 25, 
 	"speed" : "medium", 
@@ -9,15 +9,6 @@ alien_0 = {
 	"points" : 5
 	}
 
-=======
-		"x_position" : 0,
-		"y_position" : 25,
-		"speed" : "medium",
-		"color" : "green",
-		"points" : 5
-		}
-		
->>>>>>> origin/main
 print(f"Original position: {alien_0['x_position']}")
 
 # Move the alien to the right
