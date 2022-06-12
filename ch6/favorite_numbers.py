@@ -1,18 +1,12 @@
 favorite_number = {
-	"alexander" : 13,
-	"johannes" : 7,
-	"oscar" : 2,
-	"simon" : 100,
-	"morgan" : 666	
+	"alexander" : [13, 23],
+	"johannes" : [7],
+	"oscar" : [2, 5],
+	"simon" : [100, 1],
+	"morgan" : [666, 999]	
 	}
 
-print(f"Alexander's favorite number is {favorite_number['alexander']}")
-print(f"Johannes's favorite number is {favorite_number['johannes']}")
-print(f"Oscar's favorite number is {favorite_number['oscar']}")
-print(f"Simon's favorite number is {favorite_number['simon']}")
-print(f"Morgan's favorite number is {favorite_number['morgan']}")
-
-# The same thing but looping through the dictonary
-
-for k, v in favorite_number.items():
-	print(f"\n{k.title()}'s favorite number is {v}")
+for dude, number in favorite_number.items():
+	print(f"{dude.title()}s favorite number is: ")
+	for num in number:
+		print(f"{num}")
