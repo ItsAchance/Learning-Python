@@ -4,7 +4,6 @@ prompt += "\nEnter 'quit' to end the program\t: "
 active = True
 while active:
 	message = input(prompt)
-
 	if message == 'quit':
 		active = False
 	elif message == 'Hello there':
