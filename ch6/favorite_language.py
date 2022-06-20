@@ -16,6 +16,6 @@ for coder in programmers:
 
 #This prints out the coder and their favorite language
 for coder, languages in favorite_language.items():
-	print(f"{coder.title()}'s favorite language is: ")
+	print(f"\n{coder.title()}'s favorite language is: ")
 	for language in languages:
 		print("\t" + language.title())

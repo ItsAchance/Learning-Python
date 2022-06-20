@@ -15,7 +15,7 @@ pet_3 = {
 	"owner" : "creed"
 	}
 
-pets = [pet_0, pet_1, pet_2, pet_3 ]
+pets = [pet_0, pet_1, pet_2, pet_3]
 
 for pet in pets:
 	print(f"{pet['owner'].title()} has a {pet['kind']}")
